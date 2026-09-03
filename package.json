@@ -2,14 +2,10 @@
   "name": "sputnik8-qa-task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest",
     "test:watch": "jest --watch"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "verbose": true
   },
   "repository": {
     "type": "git",
@@ -29,6 +25,6 @@
     "jest": "^30.5.0",
     "supertest": "^7.2.2",
     "ts-jest": "^29.4.12",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.2"
   }
 }
